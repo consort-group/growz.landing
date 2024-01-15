@@ -1,0 +1,29 @@
+@mixin flexbox-align-justify-gap-direction($align, $justify, $gap: null, $direction: null) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  @if $gap != null {
+    gap: $gap;
+  }
+  @if $direction != null {
+    flex-direction: $direction;
+  }
+}
+
+@mixin font-color-size-style-weight-height($color, $size, $style, $weight, $height) {
+  @if $color != null {
+    color: $color;
+  }
+  @if $size != null {
+    font-size: $size;
+  }
+  @if $style != null {
+    font-style: $style;
+  }
+  @if $weight != null {
+    font-weight: $weight;
+  }
+  @if $height != null {
+    line-height: $height;
+  }  
+}

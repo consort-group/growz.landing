@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import 'mixins';
+
+:root {
+  --gray-900: #101828;
+  --gray-600: #475467;
+  --gray-500: #667085;
+  --gray-200: #EAECF0;
+  --gray-50: #F9FAFB;
+  --green-700: #007E27;
+  --green-200: #D2EDAB;
+  --green-50: #F6FBEE;
+  --base-white: #fff;
+  --orange-200: #F5D4A3;
+  --orange-50: #FDF6ED;
+  --success-200: #ABEFC6;
+  --success-50: #ECFDF3;
+  --blue-200: #B9DFD5;
+  --blue-50: #F1F9F7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  transition: .3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  min-width: 650px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+html {
+  min-width: 650px;
+  width: 100%;
+}

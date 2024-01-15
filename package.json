@@ -1,0 +1,25 @@
+{
+  "name": "growz-package",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "swiper": "^10.2.0",
+    "vue": "^3.2.36",
+    "vue-i18n": "^9.3.0-beta.26",
+    "vue-router": "^4.2.4",
+    "leaflet": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "fibers": "^5.0.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "vite": "^4.3.9"
+  }
+}
